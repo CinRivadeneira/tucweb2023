@@ -1,0 +1,77 @@
+.reglog{
+    margin: 80px;
+    display: grid;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+.contenedorr {
+    width: 100%;
+    display: flex;
+    max-width: 1100px;
+    align-items: center;
+    justify-content: center;
+    border: 500px;
+}
+
+.contenedorr b{
+    color: #f6c355;
+    margin-left: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardd {
+    width: 350px;
+    height:290px;
+    margin: 20px;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #eceff1;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+    display: inline-block;
+}
+
+.cardd:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.btn{
+    margin: 30px 32%;
+    padding: 7px;
+    color: #eceff1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #042133;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+.btnr{
+    margin: 20px 32%;
+    padding: 5px;
+    color: #eceff1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #042133;
+    border-radius: 7px;
+    width: 100px;
+    height: 40px;
+    transition: background-color 0.25s;
+}
+
+
+h4{
+    color:rgb(4, 4, 97);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.form-control{
+    margin-block: 15px;
+    margin-left: 15px;
+}
